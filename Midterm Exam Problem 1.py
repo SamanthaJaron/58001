@@ -8,7 +8,7 @@ class Circle:
     def perimeter(self):
         return 2 * 3.14 * self.radius
 
-radius = float(input("Enter the radius of the circle: "))
+radius = float(input("Enter the radius or diameter of the circle: "))
 c = Circle(radius)
 print("Area of the circle:", c.area())
 print("Perimeter of the circle:", c.perimeter())
